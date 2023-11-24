@@ -1,0 +1,15 @@
+# Put into /usr/share/applications/
+# Put icon into /usr/share/icons
+# If necessary, restart GUI (Alt+F2, 'restart')
+
+[Desktop Entry]
+Name=Neovim
+GenericName=Neovim
+TryExec=nvim
+Exec=nvim
+Icon=/usr/share/icons/nvim.png
+Terminal=true
+Type=Application
+Categories=Utility;
+Keywords=Neovim;Nvim;
+X-Desktop-File-Install-Version=0.24
